@@ -1,0 +1,101 @@
+@font-face {
+	font-family: aniron;
+	src: url(aniron.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url('imagenes/intro.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: 'Arial', sans-serif;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	height: 100vh;
+}
+
+.dialog-box {
+	width: 90%;
+	max-height: 200px; 
+	overflow-y: auto; 
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.dialog-text {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.dialog-box button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dialog-box #left {
+    float: left;
+	display: none
+}
+
+.dialog-box #right {
+    float: right;
+	display: none;
+}
+
+.dialog-box #mid {
+    margin: auto;
+}
+
+.dialog-box #reset {
+	display: none;
+    margin: auto;
+}
+
+#reset {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #852929;
+	color: #f9f9f9;
+	width: 100px;
+}
+
+/* Estiliza el reproductor de audio */
+audio {
+	width: 200px;
+	/* Ancho personalizado */
+	height: 30px;
+	/* Alto personalizado */
+	background-color: #333;
+	/* Color de fondo */
+	color: #fff;
+	/* Color del texto */
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+span{
+	font-family: 'aniron', sans-serif;
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: aniron;
+  src: url(aniron.ttf);
+}
+@font-face {
+  font-family: elfico;
+  src: url(elvish.otf);
+}
+body{
+	background-image: url('img/la_comarca.jpg');
+	background-repeat: no-repeat;
+  background-size: auto;
+}
+h1{
+	font-family: aniron, sans-serif;
+	color: white;
+	font-size: 3rem;
+	margin: 0 0 0 5%;
+}
+div{
+	border: 1px solid black;
+	margin: 10% 5% 0 40%;
+	height: 500px;
+	padding: 1rem;
+	background-color: rgba(255,255,255, 0.3);
+	font-family: sans-serif;
+	font-size: 1.2rem;
+	color: #444444;
+	border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
